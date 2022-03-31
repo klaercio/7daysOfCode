@@ -1,0 +1,68 @@
+*{
+    margin: 0;
+    padding: 0;
+}
+
+.caixa {
+    width: 80%;
+    margin: 0 auto;
+}
+
+.cabecalho {
+    display: flex;
+    flex-wrap: wrap;
+    height: 80px;
+    align-items: center;
+    justify-content: space-between;
+}
+
+.cabecalho__imagem {
+    margin: 0px 50px 0 0;
+}
+
+.cabecalho__navegacao {
+    margin-left: 50px;
+}
+
+.lista__navegacao {
+    display: flex;
+    list-style: none;
+}
+
+.navegacao__item {
+    padding: 10px;
+    text-decoration: none;
+}
+
+.item{
+    text-decoration: none;
+    color: #667085;
+    font-weight: 500;
+}
+
+.item:hover {
+    color: black;
+}
+
+.botao {
+    border: none;
+    background: transparent;
+    color: black;
+    padding: 10px 20px;
+    border-radius: 10px;
+    color: #667085;
+}
+
+.botao:hover {
+    cursor: pointer;
+}
+
+.botoes {
+    flex-grow: 3;
+    text-align: right;
+}
+
+.cadastrar {
+    background-color: #8E2424;
+    color: white;
+}
