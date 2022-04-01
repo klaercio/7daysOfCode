@@ -1,6 +1,7 @@
 *{
     margin: 0;
     padding: 0;
+    font-family: Arial, Helvetica, sans-serif
 }
 
 .caixa {
@@ -77,6 +78,10 @@
     justify-content: center;
 }
 
+.sobre__caixa {
+    margin-top: 10%;
+}
+
 .sobre__subtitulo {
     text-align: center;
     font-size: 24px;
@@ -120,4 +125,41 @@
 
 .estatisticas__texto {
     color: #667085;
+}
+
+.sobre__imagem {
+    margin: 3em 0;
+}
+
+.vagas {
+    margin-top: 5%;
+}
+
+.vagas__titulo {
+    margin: 0 0 5% 18%;
+}
+
+.lista__vagas {
+    width: 60%;
+    margin: 0 auto;
+    list-style: none;
+}
+
+.vagas__item {
+    border: 1px solid rgba(66, 70, 85, 0.1);
+    border-radius: 7px;
+    padding: 6%;
+    margin-bottom: 5%;
+}
+
+.vagas__subtitulo {
+    font-size: 28px;
+    margin-bottom: 40px;
+    font-family: Arial, Helvetica, sans-serif;
+}
+
+.vagas__texto {
+    font-size: 24px;
+    color: #667085;
+    font-family: Arial, Helvetica, sans-serif;
 }
