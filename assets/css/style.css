@@ -58,6 +58,7 @@
 
 .botao:hover {
     cursor: pointer;
+    border: 1px solid rgba(66, 70, 85, 0.3);
 }
 
 .botoes {
@@ -137,6 +138,7 @@
 
 .vagas__titulo {
     margin: 0 0 5% 18%;
+    font-size: 30px;
 }
 
 .lista__vagas {
@@ -152,6 +154,11 @@
     margin-bottom: 5%;
 }
 
+.vagas__item:hover {
+    cursor: pointer;
+    border: 1px solid rgba(66, 70, 85, 0.5);
+}
+
 .vagas__subtitulo {
     font-size: 28px;
     margin-bottom: 40px;
@@ -162,4 +169,79 @@
     font-size: 24px;
     color: #667085;
     font-family: Arial, Helvetica, sans-serif;
+}
+
+.colaboradores {
+    display: flex;
+    flex-wrap: wrap;
+    flex-direction: column;
+    align-items: center;
+    margin: 10%;
+}
+
+.colaboradores__titulo {
+    font-size: 14px;
+    color: #8E2424;
+}
+
+.colaboradores__texto {
+    font-size: 36px;
+    text-align: center;
+    padding: 1em 0;
+}
+
+.colaboradores__perfil {
+    text-align: center;
+}
+
+.perfil__nome {
+    font-size: 16px;
+    color: #101828;
+    padding: 1em;
+}
+
+.perfil__imagem {
+    width: 56px;
+    height: 56px;
+}
+
+.perfil__trabalho {
+    font-size: 14px;
+    color: #667085;
+}
+
+.rodape__titulo {
+    font-size: 44px;
+}
+
+.rodape {
+    display: flex;
+    text-align: center;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+    margin-bottom: 13%;
+}
+
+.rodape__p {
+    font-size: 20px;
+    color: #667085;
+    padding: 3%;
+}
+
+.rodape__input {
+    width: 80%;
+    border: 1px solid #D0D5DD;
+    border-radius: 10px;
+    margin-right: 10px;
+}
+
+.rodape__div {
+    display: flex;
+    width: 30%;
+}
+
+.rodape__direitos {
+    font-size: 16px;
+    margin-top: 3%;
 }
